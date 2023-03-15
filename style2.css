@@ -105,6 +105,13 @@ span.forgotpsd a {
 
 /* Media queries for the responsiveness of the page */
 @media screen and (max-width: 600px) {
+    body{
+        align-items: center;
+        margin: 10% 4%;
+        height: 100vh;
+    }
+}
+@media screen and (max-width: 600px) {
     form {
         width: 27rem;
     }
