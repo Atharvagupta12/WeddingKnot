@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:beige;
+}
+
+.box h1 {
+    padding-top: 5%;
+    text-align: center;
+   
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    background: rgba(225,225,225,0.1);
+    box-shadow: 0 25px 45px rgba(1, 1, 1, 0.4);
+    border: 2px solid rgba(225,225,225,0.5);
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: center;
+    margin: 3% 35%;
+    align-items: center;
+    text-align: center;
+
+}
+
+#dycalendar {
+    width: 100%;
+    padding: 20px;
+}
+
+#dycalendar table {
+    width: 100%;
+    margin-top: 40px;
+    border-spacing: 5px;
+}
+
+#dycalendar table td {
+    color: black;
+    padding: 10px;
+}
+
+#dycalendar table tr:nth-child(1) td {
+    background: pink;
+    color: black;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+#dycalendar table td:hover {
+    background:pink;
+    color: black !important;
+}
+
+.dycaledar-month-container .dycalendar-today-date ,
+.dycalendar-month-container .dycalendar-target-date {
+    background: white;
+    color: pink !important;
+}
+
+.dycaledar-month-container .dycalendar-header .dycalendar-prev-next-btn.prev-btn {
+    background: white;
+    color:pink;
+    width: 44px;
+    height: 38px;
+    border-radius: 4px;
+    left: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+
+}
+
+.dycaledar-month-container .dycalendar-header .dycalendar-prev-next-btn.next-btn {
+    background: white;
+    color: black;
+    width: 44px;
+    height: 38px;
+    border-radius: 4px;
+    right: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+
+}
+
+.dycalendar-month-container .dycalendar-span-month-year{
+    color: rgb(212, 89, 109);
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.button{
+    text-align: center;
+}
+.button a{
+    padding: 4px;
+    font-size: 22px;
+    color: rgb(212, 89, 109);
+    text-decoration: none;
+}
+
+@media(max-width:1000px){
+    .container{
+        margin: 10% 20%;
+    }
+}
+@media(max-width:700px){
+    .container{
+        margin: 10% 10%;
+    }
+}
+@media(max-width:400px){
+    .container{
+        margin: 10% 1%;
+    }
+}
+
