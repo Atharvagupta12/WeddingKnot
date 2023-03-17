@@ -61,13 +61,15 @@ a {
 
 /*--container--*/
 .container {
+   
     height: 90vh;
     display: flex;
 
 }
 
 .content {
-    margin: 10% 9%;
+    border-radius: 20px;
+   margin: 10% 9%;
 }
 
 .content h1 {
@@ -193,16 +195,27 @@ span {
 /*--Middle2--*/
 .contentFour h1 {
     width: 100%;
-    background-color: #e3e1e1c7;
-    text-align: center;
+   text-align: center;
     font-size: 32px;
     font-weight: 400;
 }
 
 .contentFour {
+    text-align: center;
     margin: 3% 9%;
+    background-color: #e3e1e1c7;
 }
+.contentFour .now{
+    padding-bottom: 1%;
+    
+}
+.now a{
+padding: 2px;
+font-size: 22px;
+color: rgb(216, 95, 116);
+background-color:#e3e1e1c7 ;
 
+}
 .contentFour i {
     color: red;
 }
@@ -276,7 +289,9 @@ span {
 /*--Media Querie--*/
 
 @media (max-width: 700px) {
-
+.content{
+    background-color: rgba(0, 0, 0, 0.08);
+}
     .content h1 {
         font-weight: 800;
         color: white;
